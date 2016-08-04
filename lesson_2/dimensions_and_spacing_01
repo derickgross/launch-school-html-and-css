@@ -1,0 +1,24 @@
+<html lang="en-US">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <style>
+    body {
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      min-width: 500px;
+      max-width: 800px;
+      margin: 0 auto 0 auto;
+    }
+    </style>
+  </head>
+  <body>
+    <p>Oh God- the Hokuten.</p>
+    <img src="Hôtel_des_Invalides.jpg" />
+
+  </body>
+</html> 

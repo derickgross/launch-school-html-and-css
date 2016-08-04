@@ -1,0 +1,99 @@
+<html lang="en-US">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <style>
+      body {
+        border: 2px solid gray;
+        padding: 40px 20px 40px 20px;
+        margin: 10px 30px 10px 30px;
+        font-family: Helvetica, Arial, sans-serif;
+      }
+
+      h1 {
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 24px;
+        color: red;
+        padding-bottom: 10px;
+      }
+
+      h2 {
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        color: gray;
+        padding-bottom: 10px;
+      }
+
+      p {
+        padding-bottom: 30px;
+      }
+
+      a {
+        text-decoration: none;
+        padding: 0 3px 0 3px;
+      }
+
+      a.spaced {
+        padding: 0 3px 0 3px;
+        margin: 25px;
+      }
+
+      a.padded {
+        color: white;
+        background-color: green;
+        padding: 25px;
+        margin: 0 2px;
+      }
+
+      div.dashed {
+        border: 2px dashed #555555;
+        padding: 40 40 40 40;
+        margin: 0 60px 60px 60px;
+      }
+
+      div#padded {
+        width: 650px;
+        border: 2px dashed #555555;
+        margin: 0 60px 60px 60px;
+        padding: 25px 40px 25px 40px;
+      }
+
+      div#fixed {
+        color: white;
+        background-color: blue;
+        position: fixed;
+        border: 2px solid blue;
+        border-radius: 15px;
+        padding: 40 40 40 40;
+        bottom: 60px;
+        left: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Inline Elements</h1>
+    <p>Inline elements occupy only the space of the content.  They do not take width and height values.</p>
+
+    <h2>Example:</h2>
+
+    <p>Anchor tags are normally inline elements; they only take up the width of their content and not the whole width of the page.  The next anchor tags follow right after it.</p>
+
+    <div class="dashed"><a href="#">Home</a><a href="#">Portfolio</a><a href="#">Contact</a></div>
+
+    <div id="fixed">I'm positioned fixed</div>
+
+    <h2>What happens if we set a margin property on an inline level element?</h2>
+
+    <p>Inline elements will only implement left and right margin values.</p>
+
+    <div class="dashed"><a href="#" class="spaced">Home</a><a href="#" class="spaced">Portfolio</a><a href="#" class="spaced">Contact</a></div>
+
+    <p>In the example I put a margin of 30px on all sides.  As you can see if you check the anchor tag in the developer tools, only the left and right side of the contents are affected by the margin.</p>
+
+    <h2>What about padding?</h2>
+
+    <div id="padded"><a href="#" class="padded">Home</a><a href="#" class="padded">Portfolio</a><a href="#" class="padded">Contact</a></div>
+
+
+  </body>
+</html> 

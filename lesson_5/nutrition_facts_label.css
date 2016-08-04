@@ -1,0 +1,127 @@
+/*
+----------------------------------------
+Tantek Celik's Whitepsace Reset
+     Author:    Tantek Celik, Shane Riley
+    Version:    (CC) 2010 Some Rights Reserved - http://creativecommons.org/licenses/by/2.0
+Description:  Resets default styling of common browsers to a common base
+----------------------------------------
+*/
+
+ul,ol { list-style: none; }
+h1,h2,h3,h4,h5,h6,pre,code { font-size: 1em; }
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input,dl,dt,dd, figure, figcaption {
+  margin: 0;
+  padding: 0; }
+a img,:link img,:visited img, fieldset { border: none; }
+address { font-style: normal; }
+header, section, article, nav, footer, hgroup, details, summary, figure, main { display: block; }
+mark {
+  color: inherit;
+  background: transparent; }
+abbr { border: none; }
+summary::-webkit-details-marker { display: none; }
+
+/* end reset */
+
+body {
+  font: normal 24px Helvetica, Arial, sans-serif;
+}
+
+main {
+  background-color: #ffffff;
+  border: 3px solid #000000;
+  max-width: fit-content;
+  padding: 10px;
+  margin: 10px;
+}
+main table:nth-child(2n+1) {
+  border-top: 8px solid #000000;
+}
+main table:nth-child(2n+1) tr:nth-child(10n+3) td:first-child {
+  border: none;
+}
+main table:nth-child(5n+1) tr:last-child {
+  border-bottom: 1px solid #949494;
+}
+
+body main h1 {
+  font-size: 60px;
+  font-weight: 900;
+  margin-top: -8px;
+}
+
+table {
+  font-size: 26px;
+  margin-top: 4px;
+  width: 100%;
+  border-top: 15px solid #000000;
+  border-collapse: collapse;
+}
+table tr {
+  max-width: 100%;
+  height: 48px;
+}
+table tr:last-of-type {
+  border: none;
+}
+table tr :last-of-type {
+  text-align: right;
+}
+table tr:nth-last-child(-n+1) td {
+  border: none;
+}
+table tr td {
+  max-width: fit-content;
+  border-bottom: 1px solid #949494;
+}
+table tr td[colspan="2"],
+table tr td[colspan="3"] {
+  text-align: left;
+}
+table tr:nth-last-child(2n+10) td {
+  text-align: right;
+}
+td:empty {
+  border: none;
+}
+
+span {
+  font-style: italic;
+}
+
+main p:last-child {
+  font-size: 20px;
+  max-width: 500px;
+  margin-left: 10px;
+  padding-top: 15px;
+}
+main p:last-child::before {
+  content: "* ";
+  margin-left: -12px;
+}
+
+main table:last-child {
+  font-size: 20px;
+  border-top: none;
+}
+main table:last-child td {
+  text-align: left;
+}
+main table:last-child thead {
+  border-bottom: 1px solid #949494;
+}
+main table:last-child thead td:nth-child(-n+1) {
+  width: 210px;
+}
+main table:last-child tr {
+  height: 24px;
+}
+main table:last-child td {
+  border: none;
+}
+main table:last-child tbody tr:nth-child(4n+2) td:first-child {
+  padding-left: 30px;
+}
+
+
+

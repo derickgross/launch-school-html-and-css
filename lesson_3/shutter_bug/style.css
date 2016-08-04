@@ -1,0 +1,87 @@
+@import url("whitespace_reset.css");
+
+body {
+  font: normal 18px "Roboto Condensed", sans-serif;
+  display: block;
+  min-width: 1100px;
+  color: #3e606f;
+  background: linear-gradient(to bottom, #d1dbbd, #fcfff5);
+  background-repeat: no-repeat;
+  padding: 0 70px 70px 70px;
+}
+
+header {
+  /*width: 920px;*/
+  padding: 20px 20px 0 20px;
+  margin: 0 auto;
+}
+
+h1 {
+  float: left;
+  padding: 45px 0 15px 115px;
+  font-size: 36px;
+  font-weight: normal;
+  color: #193441;
+  background: transparent url("logo2.png") 0 0 no-repeat;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: normal;
+  margin: 50px 0 30px 0;
+  padding: 20px 0 0 0;
+}
+
+article {
+  width: 960px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  margin: 123px 0 0 0;
+  padding: 30px;
+  overflow: hidden;
+  box-shadow: 0px 5px 5px #b5b5b5;
+}
+
+article img {
+  float: right;
+  margin: 0 0 0 45px;
+}
+
+nav {
+  padding: 75px 0 0 0;
+  float: left;
+  margin: 0 0 0 120px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  color: #91aa9d;
+  padding: 10px 40px 14px 40px;
+  text-decoration: none;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: #fcfff5;
+}
+
+nav a.active {
+  color: #dfe8de;
+  background-color: #91aa9d;
+}
+
+p {
+  margin: 0 0 15px 0;
+}
+
+footer h3 {
+  margin: 10px 0 0 0;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+#masthead {
+  margin-bottom: 45px;
+}

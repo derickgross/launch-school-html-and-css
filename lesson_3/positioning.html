@@ -1,0 +1,44 @@
+<html lang="en-US">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <style>
+      #container {
+        background-color: yellow;
+        width: 100vw;
+        height: 100vh;
+      }
+
+      div {
+        content: "";
+        display: block;
+        clear: both;
+      }
+
+      #left {
+        background-color: red;
+        float: left;
+      }
+
+      #right {
+        background-color: blue;
+        float: left;
+      }
+
+      #bottom {
+        background-color: green;
+        width: 300px;
+        display: inline;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="left">This is the left element.</div>
+      <div id="right">This is the right element.</div>
+      <div id="bottom">This is the bottom element. The only reason it's being displayed on the top is because I want to check to see if it will overflow around the left and right elements and extend below them under different circumstances.</div>
+
+    </div>
+
+  </body>
+</html> 
